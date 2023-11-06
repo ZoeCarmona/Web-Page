@@ -1,0 +1,260 @@
+body{
+    background-color: black;
+}
+
+/* .head{
+    background-color: green;
+} 
+
+.main{
+    background-color: blue;
+}
+
+.footer{
+    background-color: chocolate;
+}
+
+
+
+.algo{
+    background-color: darkgoldenrod;
+}
+
+.new-release{
+    background-color: darkviolet;
+}
+
+.about{
+    background-color: deeppink;
+} */
+
+/*----------------------------------- HEADER --------------------------------------------*/
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'IM Fell DW Pica', serif;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: grey;
+}
+
+.logo{
+    width: 400px;
+    height: 60px;
+}
+
+.head .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 55px 10px 55px;
+}
+
+/* ------------------------------------------- MAIN -------------------------------------------- */
+
+.main .new-release{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.album-cover{
+    width: 300px;
+    height: 260px;
+}
+
+.album-tittle {
+    font-family: 'Kay Pho Du', serif;
+    font-size: 70px;
+    margin: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+h2{
+    color: white;
+}
+.album-des{
+    font-family: 'Kay Pho Du', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.listen{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    transition: color 0.3s;
+}
+
+.listen:hover{
+    background-color: white;
+}
+
+/* ------------ABOUT-------------------------- */
+.about{
+    padding: 0px 50px 0px 50px;
+}
+
+.info-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-pic{
+    width: 300px;
+    height: 400px;
+    padding: 0px 100px 0px 150px;
+}
+
+.description{
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 0px 0px 40px;
+}
+
+
+/* ------------------- PICTURES---------- */
+.tittle-pic{
+    padding: 10px 0px 0px 50px;
+}
+
+.img-pic{
+    display: flex;
+    width: 1230px;
+    padding: 0px 0px 0px 50px;
+}
+
+.pic-members{
+    flex: 1;
+    overflow: hidden;
+    filter: grayscale(1);
+    transition: 0.5s;
+}
+
+.pic-members img{
+    width: 400px;
+    height: 600px;
+}
+
+.pic-members:hover{
+    flex: 7;
+    filter: grayscale(0);
+}
+
+/* -------------------NEWS----------------------------------- */
+p{
+    color:white;
+}
+
+.news{
+    padding: 0px 50px 0px 50px;
+}
+
+.news-img{
+    width: 300px;
+    height: 200px;
+    filter: grayscale(1);
+    transition: 0.5s;
+    padding: 0px 10px 0px 0px;
+}
+
+.news-img:hover{
+    filter: grayscale(0);
+}
+
+.img-news-distribution{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* -------------------- VIDEOS----------------- */
+
+.interview{
+    padding: 0px 50px 0px 50px;
+}
+
+.vid-img{
+    width: 300px;
+    height: 200px;
+    filter: grayscale(1);
+    transition: 0.5s;
+    padding: 0px 10px 0px 0px;
+}
+
+.vid-img:hover{
+    filter: grayscale(0);
+}
+
+.img-vid-distribution{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------------------- FOOTER ----------------------------------*/
+.footer{
+    padding: 15px 0px 0px 0px;
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.insta{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.twt{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.yt{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.made-by{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
